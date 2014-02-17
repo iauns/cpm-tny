@@ -67,5 +67,4 @@ file (GLOB Sources
 
 # Create static library to use.
 add_library(${CPM_LIB_TARGET_NAME} ${Sources})
-target_link_libraries(${CPM_LIB_TARGET_NAME} ${CPM_LIBRARIES})
 
