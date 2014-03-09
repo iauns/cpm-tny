@@ -40,8 +40,9 @@ CPM_InitModule(${CPM_MODULE_NAME})
 set(REPO_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/3rdParty/tny")
 CPM_EnsureRepoIsCurrent(
   TARGET_DIR ${REPO_SOURCE_DIR}
-  GIT_REPOSITORY "https://github.com/iauns/Tny.git"
-  GIT_TAG "origin/master"
+  GIT_REPOSITORY "https://github.com/BobMarlon/Tny.git"
+  #GIT_TAG "origin/master"
+  GIT_TAG "00d0f3499170e09bf2e8a136a713e9e5113ec657"
   USE_CACHING TRUE
   )
 CPM_ExportAdditionalIncludeDir("${REPO_SOURCE_DIR}/src")
